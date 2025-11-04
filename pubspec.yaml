@@ -21,18 +21,10 @@ dev_dependencies:
   flutter_lints: ^6.0.0
   build_runner: ^2.10.1 
 
-flutter:
-  plugin:
-    platforms:
-      android:
-        default_package: ax_responsive
-      ios:
-        default_package: ax_responsive
-      web:
-        default_package: ax_responsive
-      macos:
-        default_package: ax_responsive
-      windows:
-        default_package: ax_responsive
-      linux:
-        default_package: ax_responsive
+platforms:
+  android:
+  ios:
+  web:
+  macos:
+  windows:
+  linux:
